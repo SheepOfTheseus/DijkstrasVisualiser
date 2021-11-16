@@ -1,0 +1,119 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+END_X	DijkstrasVisualiser.py	/^END_X = round(GRAPH_WID*3\/4)$/;"	v
+END_Y	DijkstrasVisualiser.py	/^END_Y = round(GRAPH_HEI\/2)$/;"	v
+GRAPH_HEI	DijkstrasVisualiser.py	/^GRAPH_HEI = 60$/;"	v
+GRAPH_WID	DijkstrasVisualiser.py	/^GRAPH_WID = 100$/;"	v
+GraphBtn	DijkstrasVisualiser.py	/^class GraphBtn(menu_btn): $/;"	c
+GraphBtns	DijkstrasVisualiser.py	/^class GraphBtns(QWidget):$/;"	c
+HEIGHT	DijkstrasVisualiser.py	/^HEIGHT = PAD_Y*2+GRAPH_HEI*VERT_SIZE$/;"	v
+NOISE	DijkstrasVisualiser.py	/^NOISE = 13$/;"	v
+PAD_X	DijkstrasVisualiser.py	/^PAD_X = 25$/;"	v
+PAD_Y	DijkstrasVisualiser.py	/^PAD_Y = 25$/;"	v
+QApplication	DijkstrasVisualiser.py	/^from PyQt5.QtWidgets import QApplication, QGridLayout, QMainWindow, QPushButton, QVBoxLayout, QWidget, QLabel, QLineEdit$/;"	i
+QColor	DijkstrasVisualiser.py	/^from PyQt5.QtGui import QColor, QPainter, QPen, QKeyEvent$/;"	i
+QGridLayout	DijkstrasVisualiser.py	/^from PyQt5.QtWidgets import QApplication, QGridLayout, QMainWindow, QPushButton, QVBoxLayout, QWidget, QLabel, QLineEdit$/;"	i
+QKeyEvent	DijkstrasVisualiser.py	/^from PyQt5.QtGui import QColor, QPainter, QPen, QKeyEvent$/;"	i
+QLabel	DijkstrasVisualiser.py	/^from PyQt5.QtWidgets import QApplication, QGridLayout, QMainWindow, QPushButton, QVBoxLayout, QWidget, QLabel, QLineEdit$/;"	i
+QLineEdit	DijkstrasVisualiser.py	/^from PyQt5.QtWidgets import QApplication, QGridLayout, QMainWindow, QPushButton, QVBoxLayout, QWidget, QLabel, QLineEdit$/;"	i
+QMainWindow	DijkstrasVisualiser.py	/^from PyQt5.QtWidgets import QApplication, QGridLayout, QMainWindow, QPushButton, QVBoxLayout, QWidget, QLabel, QLineEdit$/;"	i
+QPainter	DijkstrasVisualiser.py	/^from PyQt5.QtGui import QColor, QPainter, QPen, QKeyEvent$/;"	i
+QPen	DijkstrasVisualiser.py	/^from PyQt5.QtGui import QColor, QPainter, QPen, QKeyEvent$/;"	i
+QPushButton	DijkstrasVisualiser.py	/^from PyQt5.QtWidgets import QApplication, QGridLayout, QMainWindow, QPushButton, QVBoxLayout, QWidget, QLabel, QLineEdit$/;"	i
+QVBoxLayout	DijkstrasVisualiser.py	/^from PyQt5.QtWidgets import QApplication, QGridLayout, QMainWindow, QPushButton, QVBoxLayout, QWidget, QLabel, QLineEdit$/;"	i
+QWidget	DijkstrasVisualiser.py	/^from PyQt5.QtWidgets import QApplication, QGridLayout, QMainWindow, QPushButton, QVBoxLayout, QWidget, QLabel, QLineEdit$/;"	i
+Qt	DijkstrasVisualiser.py	/^from PyQt5.QtCore import Qt$/;"	i
+START_X	DijkstrasVisualiser.py	/^START_X = round(GRAPH_WID\/2)$/;"	v
+START_Y	DijkstrasVisualiser.py	/^START_Y = round(GRAPH_HEI\/2)$/;"	v
+VERT_SIZE	DijkstrasVisualiser.py	/^VERT_SIZE = 7$/;"	v
+WIDTH	DijkstrasVisualiser.py	/^WIDTH = PAD_X*2+GRAPH_WID*VERT_SIZE$/;"	v
+__init__	DijkstrasVisualiser.py	/^    def __init__(self) -> None:$/;"	m	class:GraphBtns
+__init__	DijkstrasVisualiser.py	/^    def __init__(self) -> None:$/;"	m	class:main_menu
+__init__	DijkstrasVisualiser.py	/^    def __init__(self) -> None:$/;"	m	class:main_window
+__init__	DijkstrasVisualiser.py	/^    def __init__(self, parent=None) -> None:$/;"	m	class:menu_line_edit
+__init__	DijkstrasVisualiser.py	/^    def __init__(self, parent=None) -> None:$/;"	m	class:short_line_edit
+__init__	DijkstrasVisualiser.py	/^    def __init__(self, text="", parent=None) -> None:$/;"	m	class:menu_label
+__init__	DijkstrasVisualiser.py	/^    def __init__(self, text=None, parent=None) -> None:$/;"	m	class:GraphBtn
+__init__	DijkstrasVisualiser.py	/^    def __init__(self, text=None, parent=None) -> None:$/;"	m	class:menu_btn
+__init__	DijkstrasVisualiser.py	/^    def __init__(self, x: int = GRAPH_WID, y: int = GRAPH_HEI) -> None:$/;"	m	class:wsggraph
+__init__	DijkstrasVisualiser.py	/^    def __init__(self, x: int, y: int) -> None:$/;"	m	class:graph_widget
+__init__	DijkstrasVisualiser.py	/^    def __init__(self,id: int, stretch: float = 0.5) -> None:$/;"	m	class:vert
+__init__	perlin.py	/^    def __init__(self, wid: int, hei: int, scale: float) -> None:$/;"	m	class:perlin
+__init__	perlin.py	/^    def __init__(self, x:float, y: float) -> None:$/;"	m	class:vec
+app	DijkstrasVisualiser.py	/^app = QApplication(sys.argv) # Start.$/;"	v
+base_color	DijkstrasVisualiser.py	/^    def base_color(self, n: float) -> QColor:$/;"	m	class:graph_widget
+ceil	DijkstrasVisualiser.py	/^from math import ceil, floor, sqrt$/;"	i
+cos	perlin.py	/^from math import pi, cos, sin, floor$/;"	i
+direction_multiplier	DijkstrasVisualiser.py	/^    def direction_multiplier(self, id: int, target: int) -> float:$/;"	m	class:wsggraph
+dot	perlin.py	/^def dot(a: object, b: object) -> float:$/;"	f
+explore	DijkstrasVisualiser.py	/^    def explore(self, id: int) -> None:$/;"	m	class:wsggraph
+explored_color	DijkstrasVisualiser.py	/^    def explored_color(self, n: float) -> QColor:$/;"	m	class:graph_widget
+fill_g	DijkstrasVisualiser.py	/^    def fill_g(self) -> None:$/;"	m	class:wsggraph
+floor	DijkstrasVisualiser.py	/^from math import ceil, floor, sqrt$/;"	i
+floor	perlin.py	/^from math import pi, cos, sin, floor$/;"	i
+full_path	DijkstrasVisualiser.py	/^    def full_path(self, id: int) -> list:$/;"	m	class:wsggraph
+generate_stretch	DijkstrasVisualiser.py	/^    def generate_stretch(self, id: int) -> float:$/;"	m	class:wsggraph
+get_id	DijkstrasVisualiser.py	/^    def get_id(self, x: int, y: int) -> int:$/;"	m	class:wsggraph
+get_index	perlin.py	/^    def get_index(self, x: int, y: int) -> int:$/;"	m	class:perlin
+get_noise	perlin.py	/^    def get_noise(self, x: float,y: float) -> float:$/;"	m	class:perlin
+get_value	perlin.py	/^    def get_value(self, x: int, y: int) -> float:$/;"	m	class:perlin
+get_x	DijkstrasVisualiser.py	/^    def get_x(self, id) -> int:$/;"	m	class:wsggraph
+get_y	DijkstrasVisualiser.py	/^    def get_y(self, id) -> int:$/;"	m	class:wsggraph
+graph_btns_connect	DijkstrasVisualiser.py	/^    def graph_btns_connect(self) -> None:$/;"	m	class:main_window
+graph_widget	DijkstrasVisualiser.py	/^class graph_widget(QWidget):$/;"	c
+init_widget	DijkstrasVisualiser.py	/^    def init_widget(self) -> None:$/;"	m	class:graph_widget
+init_window	DijkstrasVisualiser.py	/^    def init_window(self) -> None:$/;"	m	class:main_menu
+init_window	DijkstrasVisualiser.py	/^    def init_window(self) -> None:$/;"	m	class:main_window
+keyPressEvent	DijkstrasVisualiser.py	/^    def keyPressEvent(self, event: QKeyEvent) -> None:$/;"	m	class:main_window
+lerp	DijkstrasVisualiser.py	/^from perlin import perlin, lerp$/;"	i
+lerp	perlin.py	/^def lerp(a: float, b: float, t: float) -> float:$/;"	f
+local_distance	DijkstrasVisualiser.py	/^    def local_distance(self, id: int, target: int) -> float:$/;"	m	class:wsggraph
+main_menu	DijkstrasVisualiser.py	/^class main_menu(QWidget):$/;"	c
+main_menu_connect	DijkstrasVisualiser.py	/^    def main_menu_connect(self) -> None:$/;"	m	class:main_window
+main_window	DijkstrasVisualiser.py	/^class main_window(QMainWindow):$/;"	c
+menu_btn	DijkstrasVisualiser.py	/^class menu_btn(QPushButton):$/;"	c
+menu_label	DijkstrasVisualiser.py	/^class menu_label(QLabel):$/;"	c
+menu_line_edit	DijkstrasVisualiser.py	/^class menu_line_edit(QLineEdit):$/;"	c
+move	DijkstrasVisualiser.py	/^    def move(self) -> None:$/;"	m	class:wsggraph
+oob	DijkstrasVisualiser.py	/^    def oob(self, id: int) -> bool:$/;"	m	class:wsggraph
+paintEvent	DijkstrasVisualiser.py	/^    def paintEvent(self, event) -> None:$/;"	m	class:graph_widget
+paint_graph	DijkstrasVisualiser.py	/^    def paint_graph(self, painter: object) -> None:$/;"	m	class:graph_widget
+paint_vert	DijkstrasVisualiser.py	/^    def paint_vert(self, painter: object, color: object, y: int, x: int) -> None:$/;"	m	class:graph_widget
+perlin	DijkstrasVisualiser.py	/^from perlin import perlin, lerp$/;"	i
+perlin	perlin.py	/^class perlin():$/;"	c
+pi	perlin.py	/^from math import pi, cos, sin, floor$/;"	i
+quit_app	DijkstrasVisualiser.py	/^    def quit_app(self):$/;"	m	class:main_window
+random	perlin.py	/^from random import random$/;"	i
+refill	perlin.py	/^    def refill(self) -> None:$/;"	m	class:perlin
+reset_entry	DijkstrasVisualiser.py	/^    def reset_entry(self):$/;"	m	class:main_menu
+scout	DijkstrasVisualiser.py	/^    def scout(self) -> None:$/;"	m	class:wsggraph
+scouted	DijkstrasVisualiser.py	/^    def scouted(self, id: int) -> bool:$/;"	m	class:wsggraph
+set_action	DijkstrasVisualiser.py	/^    def set_action(self) -> None:$/;"	m	class:main_menu
+set_end	DijkstrasVisualiser.py	/^    def set_end(self, x: int, y: int) -> None:$/;"	m	class:wsggraph
+set_noise_map	DijkstrasVisualiser.py	/^    def set_noise_map(self, scale: int=NOISE) -> None:$/;"	m	class:wsggraph
+set_param	DijkstrasVisualiser.py	/^    def set_param(self) -> None:$/;"	m	class:main_menu
+set_start	DijkstrasVisualiser.py	/^    def set_start(self, x: int, y: int) -> None:$/;"	m	class:wsggraph
+set_total_distance	DijkstrasVisualiser.py	/^    def set_total_distance(self, id: int, target: int) -> None:$/;"	m	class:wsggraph
+short_line_edit	DijkstrasVisualiser.py	/^class short_line_edit(menu_line_edit):$/;"	c
+show_graph	DijkstrasVisualiser.py	/^    def show_graph(self) -> None:$/;"	m	class:main_window
+show_main_menu	DijkstrasVisualiser.py	/^    def show_main_menu(self) -> None:$/;"	m	class:main_window
+sin	perlin.py	/^from math import pi, cos, sin, floor$/;"	i
+smoothstep	perlin.py	/^def smoothstep(t: float) -> float:$/;"	f
+solve	DijkstrasVisualiser.py	/^    def solve(self) -> None:$/;"	m	class:wsggraph
+solve_path	DijkstrasVisualiser.py	/^    def solve_path(self) -> None:$/;"	m	class:main_window
+solved	DijkstrasVisualiser.py	/^    def solved(self) -> bool:$/;"	m	class:wsggraph
+sqrt	DijkstrasVisualiser.py	/^from math import ceil, floor, sqrt$/;"	i
+step	DijkstrasVisualiser.py	/^    def step(self) -> None:$/;"	m	class:main_window
+step	DijkstrasVisualiser.py	/^    def step(self) -> None:$/;"	m	class:wsggraph
+sys	DijkstrasVisualiser.py	/^import sys$/;"	i
+unit_vector	perlin.py	/^def unit_vector() -> object:$/;"	f
+valid_direction	DijkstrasVisualiser.py	/^    def valid_direction(self, id: int, target: int) -> bool:$/;"	m	class:wsggraph
+validate_id	DijkstrasVisualiser.py	/^    def validate_id(self, id: int) -> None:$/;"	m	class:wsggraph
+vec	perlin.py	/^class vec():$/;"	c
+vert	DijkstrasVisualiser.py	/^class vert(object):    $/;"	c
+window	DijkstrasVisualiser.py	/^window = main_window()$/;"	v
+wsggraph	DijkstrasVisualiser.py	/^class wsggraph(object):$/;"	c
